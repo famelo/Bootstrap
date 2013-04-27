@@ -2,14 +2,16 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/Components\/bootstrap\/less\/tests\/navbar.html" : {
+    "\/Components\/bootstrap\/js\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/tests\/navbar.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-collapse.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-collapse.min.js",
+      "fileType" : 64
     },
     "\/Components\/bootstrap\/less\/forms.less" : {
       "ignoreWasSetByUser" : 0,
@@ -120,6 +122,17 @@
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-popover.min.js",
       "fileType" : 64
     },
+    "\/Components\/bootstrap\/js\/bootstrap-transition.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-transition.min.js",
+      "fileType" : 64
+    },
     "\/Components\/bootstrap\/less\/button-groups.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -132,17 +145,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/Components\/bootstrap\/js\/bootstrap-transition.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-transition.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-transition.min.js",
-      "fileType" : 64
     },
     "\/Components\/bootstrap\/less\/code.less" : {
       "ignoreWasSetByUser" : 0,
@@ -488,19 +490,6 @@
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.min.js",
       "fileType" : 64
     },
-    "\/Components\/bootstrap\/less\/responsive-767px-max.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/responsive-767px-max.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/responsive-767px-max.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/Components\/bootstrap\/less\/component-animations.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -510,6 +499,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/component-animations.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/Components\/bootstrap\/less\/responsive-767px-max.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/responsive-767px-max.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/responsive-767px-max.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -776,19 +778,6 @@
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/tests\/unit\/bootstrap-button.min.js",
       "fileType" : 64
     },
-    "\/Components\/bootstrap\/less\/popovers.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/popovers.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/popovers.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/Components\/bootstrap\/less\/responsive-768px-979px.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -798,6 +787,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/responsive-768px-979px.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/Components\/bootstrap\/less\/popovers.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/popovers.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/less\/popovers.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -940,15 +942,15 @@
       "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/tests\/unit\/bootstrap-tab.min.js",
       "fileType" : 64
     },
-    "\/Components\/bootstrap\/js\/bootstrap-alert.js" : {
+    "\/Components\/bootstrap\/js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-alert.js",
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-tooltip.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-alert.min.js",
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-tooltip.min.js",
       "fileType" : 64
     },
     "\/Components\/bootstrap\/less\/responsive.less" : {
@@ -964,15 +966,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/Components\/bootstrap\/js\/bootstrap-tooltip.js" : {
+    "\/Components\/bootstrap\/js\/bootstrap-alert.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-tooltip.js",
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-alert.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-tooltip.min.js",
+      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-alert.min.js",
       "fileType" : 64
     },
     "\/Styles\/Main.css" : {
@@ -1054,16 +1056,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/Components\/bootstrap\/js\/bootstrap-collapse.js" : {
+    "\/Components\/bootstrap\/less\/tests\/navbar.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-collapse.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Components\/bootstrap\/js\/bootstrap-collapse.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/Components\/bootstrap\/less\/tests\/navbar.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [

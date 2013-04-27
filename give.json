@@ -12,5 +12,10 @@
       "replace": "{{project_name}}",
       "name": "index.html"
     }
+  ],
+  "postProcessCommands": [
+    {
+      "command": "bower install"
+    }
   ]
 }
