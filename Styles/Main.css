@@ -6034,9 +6034,8 @@ td.visible-print {
 .nav-vertical ul ul a {
   background: #f7f7f7;
 }
-body {
-  padding-top: 70px;
-}
+body {}
+
 body > .container {
   background: #efefef;
   padding: 20px;
