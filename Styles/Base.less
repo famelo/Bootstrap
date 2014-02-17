@@ -1,62 +1,56 @@
-body {}
+/*
+	 	written by: Sven Steinker and Marc Neuhaus
+		Web: http://svensteinker.de , Mail: sven{at}svensteinker.de
+		Web: http://famelo.com , Mail: mneuhaus@famelo.com
 
-body > .container {
-	background: #efefef;
-	padding: 20px;
+	take a look and learn, but never copy n paste!
+
+*/
+
+// mixins, functions, operations
+
+@white:			#ffffff;
+@black: 		#000000;
+@gold: 			rgba(236, 193, 116, 0.7);
+
+.font (@fontsize:13px) {
+	font-size: @fontsize;
+	line-height: @fontsize + 3;
+	color:@black;
+	margin: 0px 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 {
-	color: @red;
+.light {
+	font-weight: 100;
 }
 
-h4, h5, h6 {
-	color: @grey;
+.regular {
+	font-weight: 400;
 }
 
-p {
-	color: @grey;
+.bold {
+	font-weight: 700;
 }
 
-.navbar-small {
-	min-height: 30px;
-	margin-bottom: 0;
-
-	.navbar-nav > li > a {
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
+p{
+	.font(15px);
 }
 
-header {
-	.logo {
-		float: left;
-		margin: 10px 0;
-	}
-
-	.navbar-nav {
-		a {
-			color: @grey;
-			font-size: 18px;
-			padding-top: 25px;
-			pagging-bottom: 20px;
-		}
-
-		a:hover {
-			background: none;
-		}
-	}
+h1 {
+	.font(50px;);
 }
 
-.wrapper {
-	padding: 30px 0;
-}
 
-.wrapper-beige {
-	background: @beige;
-	padding: 30px 0;
-}
+h2 {
+	.font(25px;);
+}	
 
-.wrapper-grey {
-	background: @light-grey;
-	padding: 30px 0;
-}
+h3 {
+	.font(20px;);
+}	
