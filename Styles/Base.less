@@ -2,9 +2,7 @@
 	 	written by: Sven Steinker and Marc Neuhaus
 		Web: http://svensteinker.de , Mail: sven{at}svensteinker.de
 		Web: http://famelo.com , Mail: mneuhaus@famelo.com
-
-	take a look and learn, but never copy n paste!
-
+		take a look and learn, but never copy n paste!
 */
 
 // mixins, functions, operations
@@ -12,6 +10,10 @@
 @white:			#ffffff;
 @black: 		#000000;
 @gold: 			rgba(236, 193, 116, 0.7);
+
+body {
+	padding-top: 80px;
+}
 
 .font (@fontsize:13px) {
 	font-size: @fontsize;
@@ -49,11 +51,11 @@ h1 {
 
 h2 {
 	.font(25px;);
-}	
+}
 
 h3 {
 	.font(20px;);
-}	
+}
 
 a {
 	text-decoration: none;
